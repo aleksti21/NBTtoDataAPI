@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nbttodata",
+  "version": "${version}",
+  "name": "NBT to Data API",
+  "description": "",
+  "authors": [
+    "aleksti21"
+  ],
+  "license": "LicenseRef-ZLA",
+  "icon": "assets/nbttodata/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "aleksti21.nbttodata.fabric.NBTtoDataFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=1.20 <=1.20.4",
+    "java": ">=21",
+    "fabric-language-kotlin": ">=1.13.12"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,36 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "LicenseRef-ZLA"
+
+[[mods]]
+modId = "nbttodata"
+version = "${version}"
+displayName = "NBT to Data API 1.20"
+authors = "aleksti21"
+description = '''
+
+'''
+logoFile = "assets/nbttodata/icon.png"
+
+[[dependencies.nbttodata]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nbttodata]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.,1.20.4]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nbttodata]]
+modId = "kotlinforforge"
+mandatory = true
+versionRange = "[4,)"
+ordering = "NONE"
+side = "BOTH"
+

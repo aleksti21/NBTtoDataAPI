@@ -1,0 +1,18 @@
+# Project exclude paths
+/.gradle/
+/build/
+/common/.gradle/
+/common/build/
+/common/build/classes/kotlin/main/
+/fabric/.gradle/
+/fabric/build/
+/fabric/build/classes/kotlin/main/
+/forge/.gradle/
+/forge/build/
+/forge/build/classes/kotlin/main/
+.idea
+.kotlin
+gradle
+fabric/run
+forge/run
+neoforge
